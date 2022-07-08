@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects xmlns="http://www.springframework.net">
+  <object type="Tsmc.Tioc.Controllers.ProjectInfoController,Tsmc.Tioc" singleton="false" >
+    <property name="_ProjectInfo" ref="ProjectInfoServiceImpl"/>
+  </object>
+  <object name="ProjectInfoServiceImpl" type="Tsmc.Service.ProjectInfoServiceImpl,Tsmc.Service" singleton="false"/>
+</objects>
